@@ -6,8 +6,8 @@
       "type": "string",
       "metadata": {
         "description": "The region to deploy the resources into"
-      }
-	  "defaultValue": "Australia East"
+      },
+	"defaultValue": "Australia East"	  
     },
     "srcIPInboundNSG": {
        "type": "string",
@@ -51,7 +51,7 @@
       "metadata": {
         "description": "Name of the Virtual Network (VNET)"
       },
-      "defaultValue": "fwVNET"
+      "defaultValue": "PalofwVNET"
     },
     "vnetNewOrExisting": {
             "type": "string",
@@ -145,7 +145,7 @@
       "type": "string",
       "metadata": {
         "description": "Username of the administrator account of VM-Series"
-      }
+      },
 	  "defaultValue": "csaadmin"
     },
     "adminPassword": {
@@ -153,7 +153,7 @@
       "defaultValue": "",
       "metadata": {
         "description": "Password for the administrator account of VM-Series"
-      }
+      },
 	  "defaultValue": "Password12345"
     },
     "baseUrl": {
@@ -218,7 +218,7 @@
       "type": "string",
       "metadata": {
         "description": "Name prefix of the new storage account created to store the VM's disks"
-      }
+      },
 	  "defaultValue": "sapalotestv3"
     },
     "storageAccountNewOrExisting" : {
