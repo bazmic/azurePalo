@@ -1,0 +1,57 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "csaadmin"
+    },
+    "adminPassword": {
+      "value": "Password12345"
+    },
+    "storageAccountName": {
+      "value": "storage519"
+    },
+    "vmName": {
+      "value": "vmname-519"
+    },
+    "MgmtPublicIP": {
+      "value": "none"
+    },
+    "MgmtPublicIPAddressName": {
+      "value": ""
+    },
+    "UntrustPublicIP": {
+      "value": "new"
+    },
+    "UntrustPublicIPAddressName": {
+      "value": "dnsnameuntrust519"
+    },
+    "vmSize": {
+      "value": "Standard_A4"
+    },
+    "srcIPInboundNSG": {
+      "value": "101.167.105.93/32"
+    },
+    "virtualNetworkName": {
+      "value": "panw-vnet"
+    },
+    "vnetNewOrExisting": {
+      "value": "new"
+    },
+    "virtualNetworkExistingRGName": {
+      "value": "[resourceGroup().id]"
+    },
+    "Bootstrap": {
+      "value": "no"
+    },
+    "BootstrapUri": {
+      "value": ""
+    },
+    "BootstrapUriSizeGB": {
+      "value": ""
+    },
+    "location": {
+      "value": "Australia East"
+    }
+  }
+}
